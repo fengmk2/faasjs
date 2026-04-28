@@ -30,8 +30,8 @@
     "@faasjs/pg-dev": "*"
   },
   "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core",
-    "vitest": "npm:@voidzero-dev/vite-plus-test"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.1.20-alpha.4",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@0.1.20-alpha.4"
   },
   "engines": {
     "node": ">=24.0.0",
