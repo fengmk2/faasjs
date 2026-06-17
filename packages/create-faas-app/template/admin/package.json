@@ -25,8 +25,8 @@
     "@faasjs/pg": "*"
   },
   "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core",
-    "vitest": "npm:@voidzero-dev/vite-plus-test"
+    "vite": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1856",
+    "vitest": "4.1.9"
   },
   "engines": {
     "node": ">=26.0.0",
