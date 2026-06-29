@@ -2,8 +2,8 @@ import { mkdir, mkdtemp, rm } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 
-import { createServer } from 'vite'
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { createServer } from 'vite-plus'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 
 const mocks = vi.hoisted(() => {
   const close = vi.fn<() => Promise<void>>(async () => {})
