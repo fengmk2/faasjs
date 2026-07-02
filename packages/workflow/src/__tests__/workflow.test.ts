@@ -1,6 +1,6 @@
 import { getClient, getClients, type Client } from '@faasjs/pg'
 import { z } from '@faasjs/utils'
-import { afterAll, beforeEach, describe, expect, it } from 'vitest'
+import { afterAll, beforeEach, describe, expect, it } from 'vite-plus/test'
 
 import {
   defineWorkflow,

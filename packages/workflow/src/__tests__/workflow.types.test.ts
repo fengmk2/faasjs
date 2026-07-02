@@ -1,5 +1,5 @@
 import { z } from '@faasjs/utils'
-import { assertType, expectTypeOf, it } from 'vitest'
+import { assertType, expectTypeOf, it } from 'vite-plus/test'
 
 import {
   defineWorkflow,
