@@ -21,11 +21,13 @@
     "prepare": "vp config"
   },
   "devDependencies": {
-    "@vitest/coverage-v8": ">=4.1.9",
-    "vite-plus": ">=0.2.1"
+    "@vitest/coverage-v8": "4.1.9",
+    "vite-plus": "0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251",
+    "vitest": "4.1.9"
   },
   "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251",
+    "vitest": "4.1.9"
   },
   "engines": {
     "node": ">=26.0.0",
